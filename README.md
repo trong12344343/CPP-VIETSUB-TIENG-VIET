@@ -17,7 +17,6 @@ Giải thích các từ khóa trong VietCPP
 | **lap_for**                  | for                             | Vòng lặp for                               |   
 | **lap_while**                | while                           | Vòng lặp while                             |  
 | **lap_vo_tan**               | while(true)                     | Vòng lặp vô tận                            |    
-| **dung**                     | break;                          | Dừng vòng lặp hoặc switch                  |   
 | **tiep**                     | continue;                       | Bỏ qua vòng lặp hiện tại, tiếp vòng sau    |    
 | **in**                       | cout <<                         | Xuất dữ liệu ra màn hình                   |   
 | **doc**                      | cin >>                          | Nhập dữ liệu từ bàn phím                   |   
