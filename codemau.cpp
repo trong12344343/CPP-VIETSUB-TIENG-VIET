@@ -1,13 +1,13 @@
 #include "vietcpp.h"
 
 bat_dau
-windows // Bật Unicode nếu dùng Visual Studio (gạch xanh kệ nó 😄)
-
+windows 
 chuoi_tiengviet ten;
 xuat L"Nhập tên của bạn: ";
-doc_dong(wcin, ten);
-
-xuat L"Xin chào, " << ten << xuong_dong;
+doc_dong(cin, ten);
+lap_for(so_nguyen i = 1; i <= 10; i++) {
+xuat L"Xin chào, " << ten ;
+xuat L"lần thứ " << i << xuong_dong;
+}	
 
 ket_thuc
-//nếu viết tiếng việt thì thêm L trước ""

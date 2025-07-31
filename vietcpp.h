@@ -10,15 +10,15 @@
 #ifdef _WIN32
 #include <io.h>
 #include <fcntl.h>
-#define windows _setmode(_fileno(stdout), _O_U16TEXT); _setmode(_fileno(stdin), _O_U16TEXT);
+#define windows _setmode(_fileno(stdout), _O_U16TEXT);  _setmode(_fileno(stdin), _O_U16TEXT);
 #define xuat xuat_unicode
 #define nhap nhap_unicode
 #define chuoi_tiengviet chuoi_unicode
 #define doc_dong doc_dong_unicode
 #else
 #define windows
-#define xuat cout
-#define nhap cin
+#define xuat cout << 
+#define nhap cin >>
 #define chuoi_tiengviet string
 #define doc_dong getline
 #endif
@@ -67,7 +67,7 @@ using namespace std;
 #define lap_while while
 #define lap_for for
 #define lap_vo_tan while(true)
-#define dung break;
+#define dung_lai break;
 #define tiep continue;
 
 // === Xuất/Nhập thường ===
@@ -148,8 +148,8 @@ using namespace std;
 #define xau_sstream stringstream
 
 // === Unicode (chỉ dùng cho Windows) ===
-#define xuat_unicode wcout
-#define nhap_unicode wcin
+#define xuat_unicode wcout <<
+#define nhap_unicode wcin  >>
 #define chuoi_unicode wstring
 #define doc_dong_unicode getline
 
