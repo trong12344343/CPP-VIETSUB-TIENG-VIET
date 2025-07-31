@@ -20,8 +20,7 @@ Giải thích các từ khóa trong VietCPP
 | **tiep**                     | continue;                       | Bỏ qua vòng lặp hiện tại, tiếp vòng sau    |    
 | **in**                       | cout <<                         | Xuất dữ liệu ra màn hình                   |   
 | **doc**                      | cin >>                          | Nhập dữ liệu từ bàn phím                   |   
-| **xuong_dong**               | << endl                         | Xuống dòng                                 |    
-| **dung_dong**                | endl                            | Kết thúc dòng                              |   
+| **xuong_dong**               |    endl                         | Xuống dòng                                 |       
 | **so_nguyen**                | int                             | Kiểu số nguyên                             |   
 | **so_thuc**                  | float                           | Kiểu số thực đơn                           |   
 | **so_kep**                   | double                          | Kiểu số thực kép                           |   
