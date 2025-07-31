@@ -1,11 +1,11 @@
-# CPP-VIETSUB-TIENG-VIET
-C++ VIETSUB FULL
-vietcpp.h – Thư viện Việt hóa C++ toàn diện
-Bản FULL hỗ trợ Unicode trên Windows và các nền tảng khác
-**Nếu dùng windows visual studio hoặc tương tự ghi thêm từ "windows" sau phần bắt đầu gạch xanh kệ nó**
-**nếu viết tiếng việt thì thêm L trước ""**
-Tác giả: Đỗ Đức Trọng
-Giải thích các từ khóa trong VietCPP
+# CPP-VIETSUB-TIENG-VIET  
+C++ VIETSUB FULL  
+vietcpp.h – Thư viện Việt hóa C++ toàn diện  
+Bản FULL hỗ trợ Unicode trên Windows và các nền tảng khác  
+**Nếu dùng windows visual studio hoặc tương tự ghi thêm từ "windows" sau phần bắt đầu gạch xanh kệ nó**  
+**nếu viết tiếng việt thì thêm L trước ""**  
+Tác giả: Đỗ Đức Trọng  
+Giải thích các từ khóa trong VietCPP  
 | Từ khóa / Macro              | Ý nghĩa / Tương đương trong C++ | Mô tả ngắn gọn                             
 | ---------------------------- | ------------------------------- | ------------------------------------------ | 
 | **bat_dau**                  | int main() {                    | Bắt đầu hàm chính                          | 
