@@ -1,8 +1,7 @@
 // vietcpp.h – Thư viện Việt hóa C++ toàn diện
 // Bản FULL hỗ trợ Unicode trên Windows và các nền tảng khác
-// code này chưa bao gồm thư viện đồ họa
+// Chưa hỗ trợ thư viện đồ họa cần cài thêm
 // Tác giả: Đỗ Đức Trọng
-
 
 #ifndef VIETCPP_H
 #define VIETCPP_H
@@ -77,8 +76,8 @@ using namespace std;
 #define tiep continue
 
 // === Xuất/Nhập thường ===
-#define in xuat // Sửa để sử dụng xuat thay vì cout<<
-#define doc nhap // Sửa để sử dụng nhap thay vì cin>>
+#define in cout << // Sửa để sử dụng xuat thay vì cout<<
+#define doc cin >> // Sửa để sử dụng nhap thay vì cin>>
 #define xuong_dong endl
 
 // === Kiểu dữ liệu ===
@@ -87,7 +86,7 @@ using namespace std;
 #define so_kep double
 #define ky_tu char
 #define chuoi string
-#define chuoi_rong_kieu wstring // Đổi tên từ chuoi_rong để tránh nhầm lẫn
+#define chuoi_rong wstring // Đổi tên từ chuoi_rong để tránh nhầm lẫn
 #define danh_sach vector
 #define danh_sach_kep deque
 #define hang_doi queue
